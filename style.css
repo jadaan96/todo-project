@@ -5,6 +5,7 @@ body {
     /* align-content: space-around; */
     column-gap: 10px;
     /* height: 150hv; */
+    
 }
 header{
     background-color: #cd4a359e;
@@ -98,7 +99,7 @@ main div h3{
      }
      main section h4{
 border: 3px dashed;    
-width: 600px; }
+width: 900px; }
      main img {
         width: 200px;
         border-radius: 50%;
@@ -131,11 +132,7 @@ width: 600px; }
      .form1{
         display: flex;
     flex-direction: column;
-    align-items: stretch;
-    height: 332px;
-    justify-content: space-between;
-    margin-top: 27px;
-    margin-bottom: 10px;
+    gap: 3px;
 
      }
      .label-test{
@@ -143,4 +140,3 @@ width: 600px; }
         font-size: 14px;
     font-family: sans-serif;
 }
-     }
