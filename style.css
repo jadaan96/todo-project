@@ -1,50 +1,58 @@
 body {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     /* align-content: space-around; */
     column-gap: 10px;
     /* height: 150hv; */
-    
+/* border: 2px solid black; */
+    min-height: 100vh;
 }
-header{
+
+header {
     background-color: #cd4a359e;
     display: flex;
- justify-content: flex;
- align-items: center;
- height: 80px;
-     margin-bottom: 20px;
-     
+    justify-content: flex;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 20px;
+
 
 }
-.logo{
+
+.logo {
     width: 100px;
 }
-header h1{
-    margin-left:34%;
+
+header h1 {
+    margin-left: 34%;
     font-size: 30px;
     font-family: inherit;
     color: #34108d;
 }
-nav a{
-font-size: 24px;  
-  text-decoration: none;
-  margin-left: 15px;
-  /* position: absolute; */
+
+nav a {
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 15px;
+    /* position: absolute; */
 }
-.main-div{
+
+.main-div {
     display: flex;
     align-items: center;
     justify-content: center;
-flex-direction: column;
-gap: 5px;
+    flex-direction: column;
+    gap: 5px;
 }
-main div h3{
+
+main div h3 {
     font-size: 25px;
     font-family: fantasy;
     color: #e525cd;
 }
-.table{
+
+.table {
     /* display: flex; */
     /* flex-grow: 2; */
     border: 2px solid;
@@ -52,91 +60,108 @@ main div h3{
     width: 34%;
     font-family: fantasy;
     color: brown;
-    margin-bottom: 294px;
+    /* margin-bottom: 294px; */
 
 }
-.h3{
+
+.h3 {
     /* position: absolute; */
 }
-.tr{
+
+.tr {
     border: 2px solid;
     /* padding: 10px; */
 }
-#td3:hover{
+
+#td3:hover {
     background-color: green;
 }
 
-#td2:hover{
+#td2:hover {
     background-color: green;
 }
-#td1:hover{
+
+#td1:hover {
     background-color: green;
 }
-.td{
+
+.td {
     border: 2px solid;
     padding: 10px;
-    }
-    
-    footer{
-        background-color: chocolate;
-        display:  ;
+}
 
-     }
-     footer p {
-        text-align: center;
-        font-size: 20px;
-     }
-     /* about */
-     .about{
-        display: flex;
-        /* display: inline-block; */
-        flex-direction: row;
-        justify-content: space-between;
-        column-gap: 20px;
-        width: 500px;
-        /* align-content: center; */
-        align-items: center;
-     }
-     main section h4{
-border: 3px dashed;    
-width: 900px; }
-     main img {
-        width: 200px;
-        border-radius: 50%;
-     }
-     main h2{
-        font-size: 34px;
+footer {
+    background-color: chocolate;
+    display: ;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* about */
+.about {
+    display: flex;
+    /* display: inline-block; */
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 20px;
+    /* align-content: center; */
+    align-items: center;
+}
+
+main section h4 {
+    border: 3px dashed;
+    width: 900px;
+}
+
+main img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+main h2 {
+    font-size: 34px;
     margin-bottom: 10px;
     font-family: math;
     color: teal;
-     }
-     .h44
-    {
-        padding: 5px;
-    }
-     .last{
-        display: flex;
+}
+
+.h44 {
+    padding: 5px;
+}
+
+.last {
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     height: 362px;
-     }
-     .r3{
-        font-size: 20px;
-        font-family: sans-serif;
-        background-color: wheat;
-        padding: 5px;
-        border: 3px dashed;
-        border-radius: 10px;        
-     }
-     .form1{
-        display: flex;
+}
+
+.r3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 5px;
+    border: 3px dashed;
+    border-radius: 10px;
+}
+.btn{
+    width:50px;
+}
+.form1 {
+    display: flex;
     flex-direction: column;
     gap: 3px;
+    align-items: center;
 
-     }
-     .label-test{
-        font-size: medium;
-        font-size: 14px;
+}
+
+.label-test {
+    font-size: medium;
+    font-size: 14px;
     font-family: sans-serif;
 }
