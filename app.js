@@ -24,29 +24,31 @@ let maritalStatus = prompt("Are you single please answer with (Yes/No)")
 let jordanianCitizens = prompt("Are you jordanian citizens please answer with (Yes/No)")
 let ownACar = prompt("Are you own a car please answer with (Yes/No)")
 
-
+let theFinalarray = []
 function answerFunction(answer) {
-    theFinalAnswer = [];
     if (answer.toLocaleLowerCase() === "yes") {
-        theFinalAnswer.push("Yes")
+        theFinalarray.push("Yes")
     } else if (answer.toLocaleLowerCase() === "no") {
-        theFinalAnswer.push("No")
+        theFinalarray.push("No")
 
     } else {
-        theFinalAnswer.push("invlid")
+        theFinalarray.push("Invalid")
 
     }
-    return theFinalAnswer;
+   
 }
-let arrOfAnswers = ['Usename :' + usename, 'Gender: ' + gender,
-'Age: ' + age,
-'is he/she a single person? ' + answerFunction(maritalStatus),
-'is he/she a jordanian citizens? ' + answerFunction(jordanianCitizens),
-'is he/she have a care? ' + answerFunction(ownACar)]
+answerFunction(maritalStatus)
+answerFunction(jordanianCitizens)
+answerFunction(ownACar)
 
-for (i = 0; i < arrOfAnswers.length; i++) {
 
-    console.log(arrOfAnswers[i]);
+
+function consoleArray(Arr) {
+    for (i = 0; i < Arr.length; i++) {
+
+        console.log(Arr[i]);
+    }
+    return Arr
 }
-
+consoleArray(theFinalarray)
 
