@@ -20,9 +20,17 @@ if (confirm("if you want to Skip the welcome meassge press cancel") === true) {
 
     }
 }
-let maritalStatus = prompt("Are you single please answer with (Yes/No)")
-let jordanianCitizens = prompt("Are you jordanian citizens please answer with (Yes/No)")
-let ownACar = prompt("Are you own a car please answer with (Yes/No)")
+function qua( ask){
+    answers=prompt(ask)
+    return answers
+} 
+let maritalStatus =qua("Are you single please answer with (Yes/No)")
+let jordanianCitizens =qua("Are you jordanian citizens please answer with (Yes/No)")
+let ownACar = qua("Are you own a car please answer with (Yes/No)")
+
+// let maritalStatus = prompt("Are you single please answer with (Yes/No)")
+// let jordanianCitizens = prompt("Are you jordanian citizens please answer with (Yes/No)")
+// let ownACar = prompt("Are you own a car please answer with (Yes/No)")
 
 let theFinalarray = []
 function answerFunction(answer) {
@@ -51,4 +59,6 @@ function consoleArray(Arr) {
     return Arr
 }
 consoleArray(theFinalarray)
+
+
 
